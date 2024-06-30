@@ -1,5 +1,6 @@
 let numeroSecreto = Math.floor(Math.random()*11);
 let numeroTentado = parseInt(prompt("Digite um número entre 1 e 10"));
+const i = 1;
 
 console.log(numeroSecreto);
 
@@ -15,4 +16,9 @@ while (numeroTentado !== numeroSecreto) {
         numeroTentado = parseInt(prompt('O número secreto é menor. Tente novamente: '));
     }
 
+    i++;
+
 }
+
+document.querySelector('h1').innerHTML = `Parabéns, acertou! Você precisou de ${i} tentativas!`;
+
