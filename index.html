@@ -3,14 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
     <title>Lista de Exercícios</title>
 </head>
 <body>
-    <h1>Bora Estudar!</h1>
-    <h2>Resultado:</h2>
-    <p class="parágrafo"></p>
+    <div>
+        <h1>Bora Estudar!</h1>
+        <h2>Resultado:</h2>
+        <p class="paragrafo"></p>
+    </div>
 
+    <div>
+        <input type="number" name="primeiro-numero" id="primeiro">
+        <input type="number" name="segundo-numero" id="segundo">
+        <button id="botao" onclick="mostrar()">Comparar</button>
+        <p class="hidden1"></p>
+    </div>
+    
+    <div class="resposta">
+        <input type="number" name="numero" id="quadrado">
+        <button id="botao" onclick="calcQuadrado()">Quadrado</button>
+        <p class="hidden2"></p>
+    </div>
 
-    <script src="ex030.js" defer></script>
+    <script src="ex035.js" defer></script>
 </body>
 </html>
