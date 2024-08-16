@@ -1,0 +1,30 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+    font-family: Arial, sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ------ */
+
+#corpoLista {
+    margin-top: 30px;
+}
